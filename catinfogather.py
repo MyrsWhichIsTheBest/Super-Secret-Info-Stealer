@@ -1,0 +1,15 @@
+import time
+f = open("catsInfo.txt", "a")
+userName = input("lol :p hi owo whaats yowo name uwu")
+print("Hello...")
+time.sleep(2)
+print(userName + ">:)")
+time.sleep(1)
+ageIs = str(input("haha,jk owo whats yowo age uwu >w<"))
+catAge = "6972" + ageIs
+time.sleep(0.5)
+print("lolz youre only", ageIs, "years old xd, im", catAge, "years old xd")
+time.sleep(1)
+print("thanks 4 info bye")
+f.write("Name: " + userName + ", Age: " + ageIs + ", Cat age: " + catAge + ", ")
+f.close()
